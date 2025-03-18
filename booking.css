@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #11263A;
+    color: #fff;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.logo img {
+    height: 40px;
+}
+
+
+.logo span {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.user-icon img {
+    height: 24px;
+}
+
+.search-bar {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.search-item input[type="text"],
+.search-item input[type="date"],
+.search-item select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 45%;
+}
+
+.search-item button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.search-item button:hover {
+    background-color: #0056b3;
+}
+
+.flight-results {
+    margin-top: 20px;
+}
+
+.flight-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flight-header,
+.flight-return {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.flight-header img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.flight-details {
+    flex: 1;
+}
+
+.flight-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flight-duration {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.flight-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flight-price span {
+    font-size: 24px;
+    color: #ffcc00;
+    background-color: #fff0b3;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.flight-price button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.flight-price button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:  #11263A;
+    color: #fff;
+}
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+
+.search-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.search-section h1 {
+    margin-bottom: 20px;
+}
+
+.search-section form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-section form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+}
+
+.search-section form button {
+    padding: 10px 20px;
+    background-color: #14181F;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
